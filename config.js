@@ -1,4 +1,4 @@
-🥲import 'dotenv/config';
+import 'dotenv/config';
 const _prefixes = process.env.PREFIXES ? process.env.PREFIXES.split(',') : ['.', '!', '/', '#'];
 const config = {
     // Bot Identity
